@@ -7,5 +7,7 @@ public class Main {
         String fullName = secondName + " " + firstName + " " + middleName;
         System.out.println(task);
         System.out.println("Ф.И.О. сотрудника - " + fullName);
+        System.out.println(task.replace('1', '2'));
+        System.out.println(fullName.toUpperCase());
     }
 }
