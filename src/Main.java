@@ -20,8 +20,6 @@ public class Main {
                 fullName(firstName, middleName, secondName).replace('ё', 'е'));
     }
     public static String fullName(String firstName, String middleName, String secondName) {
-        String fullName;
-        fullName = secondName + " " + firstName + " " + middleName;
-        return fullName;
+        return (secondName + " " + firstName + " " + middleName);
     }
 }
