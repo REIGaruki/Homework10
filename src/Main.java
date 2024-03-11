@@ -8,6 +8,8 @@ public class Main {
         System.out.println(task);
         System.out.println("Ф.И.О. сотрудника - " + fullName);
         System.out.println(task.replace('1', '2'));
-        System.out.println(fullName.toUpperCase());
+        System.out.println("Ф.И.О. сотрудника для заполнения отчета - " + fullName.toUpperCase());
+        System.out.println(task.replace('1', '3'));
+        System.out.println("Данные Ф.И.О. сотрудника - " + fullName.replace('ё', 'е'));
     }
 }
